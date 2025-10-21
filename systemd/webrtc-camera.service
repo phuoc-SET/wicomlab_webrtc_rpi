@@ -6,8 +6,8 @@ After=network-online.target
 Type=simple
 User=rpi
 Group=rpi
-WorkingDirectory=/home/rpi/webrtc_clover_drone
-ExecStart=/usr/bin/python3 /home/rpi/webrtc_clover_drone/server.py --host 0.0.0.0 --port 8082 --width 1280 --height 720 --fps 30 --bitrate 2500000
+WorkingDirectory=/home/rpi/wicomlab_webrtc_rpi
+ExecStart=/usr/bin/python3 /home/rpi/wicomlab_webrtc_rpi/server.py --host 0.0.0.0 --port 8082 --width 1280 --height 720 --fps 30 --bitrate 2500000
 Restart=on-failure
 Environment=PYTHONUNBUFFERED=1
 # Optionally enable STUN
