@@ -20,8 +20,8 @@ Truy cập: `http://<ip-raspberry-pi>:8082` để xem stream.
 
 ```bash
 # Clone repo
-git clone https://github.com/cappuccinocat/webrtc_clover_drone.git
-cd webrtc_clover_drone
+git clone git@github.com:phuoc-SET/wicomlab_webrtc_rpi.git
+cd wicomlab_webrtc_rpi
 
 # Cài dependency
 chmod +x scripts/install_deps.sh
